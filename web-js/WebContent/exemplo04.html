@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exemplo 04 Capturando componente</title>
+</head>
+<body>
+	<div align="center">
+		<h2>Oque o JavaScript pode fazer?</h2>
+
+		<p>O JavaScript pode capturar um componente e suas ações</p>
+		<p>O código JS está no corpo HTML</p>
+	</div>
+
+	<div align="center">
+
+		<button id="btn" onclick="alert('exemplo de alerta!')">
+			Clique aqui</button>
+		<script type="text/javascript">
+	function mensagem() {
+		var data = new Date();
+		alert(data.toString());
+
+		}
+
+	var botao = document.getElementById('btn');
+	botao.addEventListener('click',mensagem);
+
+
+
+  </script>
+
+	</div>
+
+</body>
+</html>

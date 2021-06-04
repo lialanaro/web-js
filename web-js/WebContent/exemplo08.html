@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>exemplo 08 - ocultando componentes HTML</title>
+<script type="text/javascript">
+ function ocultar(obj) {
+	 document.getElementById(obj).style.display='none';
+
+
+	 }
+</script>
+</head>
+<body>
+
+	<div align="center">
+		<h2>Oque o JavaScript pode fazer?</h2>
+
+		<p id="pgf">O JavaScript pode ocultar componentes HTML</p>
+		<button id="btn" onclick="ocultar('pgf')">Clique aqui</button>
+	</div>
+
+</body>
+</html>
